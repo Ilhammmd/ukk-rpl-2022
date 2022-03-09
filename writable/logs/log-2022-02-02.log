@@ -1,0 +1,7 @@
+CRITICAL - 2022-02-02 19:22:18 --> Class 'App\Controllers\User' not found
+#0 C:\UKK2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\UKK2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\UKK2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\UKK2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\UKK2022\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK2022\\publ...')
+#5 {main}

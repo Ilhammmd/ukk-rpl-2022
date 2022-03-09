@@ -1,0 +1,24 @@
+CRITICAL - 2022-02-08 19:39:20 --> Too few arguments to function App\Models\User_model::create(), 2 passed in C:\UKK2022\app\Controllers\Auth.php on line 24 and exactly 3 expected
+#0 C:\UKK2022\app\Controllers\Auth.php(24): App\Models\User_model::create('14496', 'Idel')
+#1 C:\UKK2022\system\CodeIgniter.php(825): App\Controllers\Auth->register()
+#2 C:\UKK2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\UKK2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK2022\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK2022\\publ...')
+#6 {main}
+CRITICAL - 2022-02-08 19:39:58 --> Too few arguments to function App\Models\User_model::create(), 2 passed in C:\UKK2022\app\Controllers\Auth.php on line 24 and exactly 3 expected
+#0 C:\UKK2022\app\Controllers\Auth.php(24): App\Models\User_model::create('14496', 'Idel')
+#1 C:\UKK2022\system\CodeIgniter.php(825): App\Controllers\Auth->register()
+#2 C:\UKK2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\UKK2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK2022\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK2022\\publ...')
+#6 {main}
+CRITICAL - 2022-02-08 19:47:19 --> Too few arguments to function App\Models\User_model::create(), 2 passed in C:\UKK2022\app\Controllers\Auth.php on line 24 and exactly 3 expected
+#0 C:\UKK2022\app\Controllers\Auth.php(24): App\Models\User_model::create('14496', 'idel')
+#1 C:\UKK2022\system\CodeIgniter.php(825): App\Controllers\Auth->register()
+#2 C:\UKK2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\UKK2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\UKK2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\UKK2022\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK2022\\publ...')
+#6 {main}

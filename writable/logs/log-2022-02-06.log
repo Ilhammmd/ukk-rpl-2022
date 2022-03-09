@@ -1,0 +1,30 @@
+CRITICAL - 2022-02-06 22:48:32 --> Class 'App\Controllers\User' not found
+#0 C:\UKK2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\UKK2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\UKK2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\UKK2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\UKK2022\system\Commands\Server\rewrite.php(43): require_once('C:\\UKK2022\\publ...')
+#5 {main}
+CRITICAL - 2022-02-06 23:26:36 --> Class 'App\Controllers\User' not found
+#0 C:\xampp\htdocs\UKK2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\UKK2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\UKK2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UKK2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\UKK2022\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 23:28:12 --> Class 'App\Controllers\User' not found
+#0 C:\xampp\htdocs\UKK2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\UKK2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\UKK2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UKK2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\UKK2022\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-06 23:28:37 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\UKK2022\app\Models\User_model.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\UKK2022\app\Controllers\Auth.php(11): App\Models\User_model::authenticate('14478', NULL)
+#2 C:\xampp\htdocs\UKK2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\xampp\htdocs\UKK2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\UKK2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UKK2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\UKK2022\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
